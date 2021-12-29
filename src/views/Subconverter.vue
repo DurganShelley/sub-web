@@ -276,10 +276,6 @@ export default {
             value: "http://127.0.0.1:25500/sub?"
           },
           { 
-            label: "api.awyan.tk（路人A自建后端）",
-            value: "https://api.awyan.tk/sub?"
-          },
-          { 
             label: "api-paoche.herokuapp.com（托管在heroku）",
             value: "http://api-paoche.herokuapp.com/sub?"
           },
@@ -315,6 +311,11 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/DurganShelley/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
               },
+              {
+                label: "ACL4SSR_Online_Full",
+                value:
+                  "https://raw.githubusercontent.com/DurganShelley/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
+              },              
               {
                 label: "ACL4SSR_Online_Mini_AdblockPlus",
                 value:
